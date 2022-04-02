@@ -1,9 +1,9 @@
 const tag = document.createElement('script');
 
 tag.src = "https://www.youtube.com/iframe_api";
-const htmlBodyNode = document.querySelector('body');
+const container = document.querySelector('.container');
 const firstScript = document.querySelector('script');
-htmlBodyNode.insertBefore(tag, firstScript);
+container.insertBefore(tag, firstScript);
 
 let player;
 
